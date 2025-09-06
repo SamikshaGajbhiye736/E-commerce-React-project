@@ -1,0 +1,128 @@
+
+.bill-1{
+    height: 1550px;
+    width: 290px;
+    border: 2px solid rgb(238, 232, 232);
+}
+.bill-input,.bill-input-email{
+    background-color: #F7F7F7;
+    height: 45px;
+    width: 250px;
+    border: 1px solid rgb(213, 204, 204);
+}
+.bill-shortbox{
+    height: 160px;
+    width: 260px;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(213, 204, 204);
+}
+.bill-2{
+    height: 1110px;
+    width: 290px;
+    border: 2px solid rgb(238, 232, 232);
+    
+}
+.bill-3{
+    background-color: #F7F7F7;
+    height: 600px;
+    width: 250px;
+}
+.bill-4{
+    height: 220px;
+    width: 250px;
+    background-color: #F7F7F7;
+}
+.bill-input2{
+    height: 50px;
+    width: 220px;
+    background-color: white;
+    border: none;
+}
+.bill-btn{
+    height: 50px;
+    width: 250px;
+}
+
+
+@media(min-width:768px){
+    .bill-1{
+        height: 1001px;
+        width: 718px;
+    }
+    .bill-input{
+        height: 40px;
+        width: 327px;
+    }
+    .bill-input-email{
+        width: 684px;
+    }
+    .bill-shortbox{
+        height: 150px;
+        width: 684px;
+    }
+    .bill-2{
+        height: 877px;
+        width: 748px;
+    }
+    .bill-3{
+        height: 440px;
+        width: 684px;
+    }
+    .bill-4{
+        height: 232px;
+        width: 684px;
+    }
+    .bill-input2{
+        height: 52px;
+        width: 664px;
+    }
+    .bill-btn{
+        height: 56px;
+        width: 684px;
+    }
+}
+
+
+
+
+@media(min-width:992px){
+    .bill-1{
+        height: 1001px;
+        width: 558px;
+    }
+    .bill-input{
+        height: 40px;
+        width: 227px;
+    }
+    .bill-input-email{
+        width: 484px;
+    }
+    .bill-shortbox{
+        height: 150px;
+        width: 484px;
+    }
+    .bill-2{
+        height: 1007px;
+        width: 558px;
+    }
+    .bill-3{
+        height: 580px;
+        width: 500px;
+    }
+    .bill-4{
+        height: 232px;
+        width:500px;
+    }
+    .bill-input2{
+        height: 52px;
+        width: 454px;
+    }
+    .bill-btn{
+        height: 56px;
+        width: 504px;
+    }
+    .bill-main{
+        position: relative;
+        left: 150px;
+    }
+}

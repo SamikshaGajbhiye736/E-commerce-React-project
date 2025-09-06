@@ -1,0 +1,58 @@
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+.search-input{
+    height: 40px;
+    width: 260px;
+    border: 1px solid rgb(216, 212, 212);
+}
+.search-icon{
+    height: 40px;
+    width: 40px;
+    background-color: #0CCFA8;
+   
+}
+.products{
+   margin-top: -20px;
+}
+
+@media(min-width:768px){
+    .nav{
+        display: flex;
+        gap: 226px;
+    }
+    .menu-name{
+        margin-left: 8px;
+        margin-top: 12px;
+    }
+    .search-input{
+        height: 40px;
+        width: 728px;
+    }
+     .products{
+        margin-top:-10px;
+     }
+} 
+
+
+@media(min-width:992px){
+    .heart-icon{
+        color: #45464B;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        gap:10px;
+    }
+    .small-icon{
+        position: relative;
+        left: -100px;
+    }
+    .nav-home{
+        color: #0CCFAD;
+    }
+    
+}

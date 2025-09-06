@@ -1,0 +1,372 @@
+.slide-1{
+    background-image: url('images/background/slider-02-1.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.shop-button{
+    height: 41px;
+    width: 129px;
+    font-size: 14px;
+    border: none;
+    margin-left: 100px;
+}
+.shop-button:hover{
+    height: 41px;
+    width: 129px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: #0CCFAD;
+    margin-left: 100px;
+}
+.slide-2{
+    background-image: url('images/background/slider-01-1.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slide-3{
+    background-image: url('images/background/slider-03-1.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slide-third{
+    margin-top:30px;
+}
+.slide-second{
+    margin-top: 80px;
+}
+.off{
+    font-size: 25px;
+    font-weight: 300;
+}
+.cloth-img1{
+    background-image: url('images/background/cloth1 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img2{
+    background-image: url('images/background/cloth1 (2).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img3{
+    background-image: url('images/background/cloth1 (3).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img4{
+    background-image: url('images/background/cloth9 (2).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img5{
+    background-image: url('images/background/cloth1 (5).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img6{
+    background-image: url('images/background/cloth9 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img7{
+    background-image: url('images/background/cloth1 (7).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth-img8{
+    background-image: url('images/background/cloth1 (8).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width: 140px;
+}
+.cloth1,.cloth2,.cloth3,.cloth4,.cloth5,.cloth6,.cloth7,.cloth8{
+    height: 271px;
+    width: 140px;
+}
+.strike{
+    color: #7e7f82ba;
+}
+.green-part{
+    background-image: url('images/background/testimonials_bg-1.jpg');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    height: 333px;
+    width: 100%;
+}
+.green-p{
+    line-height: 30px;
+}
+.team{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.john{
+    margin-top: -15px;
+}
+.product-1{
+    height: 106px;
+    width: 80px;
+}
+.blog-1{
+    background-image: url(images/background/blog-01-600x407.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 226px;
+    width: 290px;
+}
+.blog-2{
+    background-image: url(images/background/blog-03-600x407.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 226px;
+    width: 290px;
+}
+.admin{
+    font-size: 14px;
+}
+.admin-2{
+    color: gray;
+}
+.green-1{
+    background-color: #0CCFA8;
+    height: 230px;
+    width: 100%;
+}
+.your{
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+.subscribe{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: black;
+}
+
+
+@media(min-width:768px){
+    .slide-1,.slide-2,.slide-3{
+        height: 600px;
+    }
+    .mans{
+        font-size: 36px;
+    }
+    .shop-button{
+        margin-left:320px;
+    }
+    .shop-button:hover{
+        margin-left:320px;
+    }
+    .slide-first{
+        margin-top: 100px;
+    }
+    .slide-third{
+        margin-top:100px;
+    }
+    .slide-second{
+        margin-top: 160px;
+    }
+    .off{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .summer{
+        font-size: 44px;
+    }
+    .hot{
+        font-size: 40px;
+    }
+    .globe{
+        font-size: 50px;
+        color: #969CA7;
+    }
+    .globe:hover{
+        font-size: 50px;
+        color:white;
+    }
+    .globe-2{
+        height: 101px;
+        width: 101px;
+        border: 1px solid #969CA7;
+    }
+    .globe-2:hover{
+        background-color: #0CCFAD;
+        height: 101px;
+        width: 101px;
+        border: 1px solid #969CA7;
+    }
+    .cloth-img1,.cloth-img2,.cloth-img3,.cloth-img4,.cloth-img5,.cloth-img6,.cloth-img7,.cloth-img8{
+        height: 314px;
+        width: 236px;
+    }
+    .cloth1,.cloth2,.cloth3,.cloth4,.cloth5,.cloth6,.cloth7,.cloth8{
+        height: 375px;
+        width: 236px;
+    }
+    .cart-button{
+        height: 40px;
+        width: 120px;
+        position: relative;
+        left: 60px;
+        top: 260px;
+        border: none;
+    }
+    .cart-button:hover{
+        background-color: #0CCFAD;
+        height: 40px;
+        width: 120px;
+        position: relative;
+        left: 60px;
+        top: 260px;
+        border: none;
+    }
+.green-part{
+    height: 317px;
+    width:100%;
+}
+.team{
+    margin-left: 360px;
+}
+.blog-1,.blog-2{
+    height:159px;
+    width: 236px;
+}
+.green-1{
+    height: 170px;
+   
+}
+.get{
+    font-size: 20px;
+}
+.your{
+    width: 240px;
+}
+    
+}
+
+
+@media(min-width:992px){
+    .mans{
+        font-size: 80px;
+    }
+    .shop-button{
+        margin-left:700px;
+    }
+    .shop-button:hover{
+        margin-left:700px;
+    }
+    .off{
+        font-size: 75px;
+        font-weight: 700;
+    }
+    .summer{
+        font-size: 64px;
+    }
+    .hot{
+        font-size: 60px;
+    }
+    .plane-section{
+        margin-left: 150px;
+        margin-right: 120px;
+    }
+    .globe{
+        font-size: 50px;
+        color: #969CA7;
+    }
+    .globe:hover{
+        font-size: 50px;
+        color:white;
+    }
+    .globe-2{
+        height: 101px;
+        width: 101px;
+        border: 1px solid #969CA7;
+    }
+    .globe-2:hover{
+        
+        background-color: #0CCFAD;
+        height: 101px;
+        width: 101px;
+        border: 1px solid #969CA7;
+    }
+    .cloth-img1,.cloth-img2,.cloth-img3,.cloth-img4,.cloth-img5,.cloth-img6,.cloth-img7,.cloth-img8{
+        height: 374px;
+        width: 286px;
+    }
+    .cloth1,.cloth2,.cloth3,.cloth4,.cloth5,.cloth6,.cloth7,.cloth8{
+        height: 415px;
+        width: 236px;
+    }
+    .row{
+        position: relative;
+        left: 100px;
+        right: 100px;
+    }
+    .cart-button{
+        position: relative;
+        left: 80px;
+        top: 320px;
+    }
+    .cart-button:hover{
+        position: relative;
+        background-color: #0CCFAD;
+        left: 80px;
+        top: 320px;
+    }
+    .green-part{
+        height: 417px;
+        width:100%;
+    }
+    .green-p{
+        position: relative;
+        top: 50px;
+    }
+    .team{
+        margin-top: 80px;
+        margin-left: 730px;
+    }
+    .blog-1,.blog-2{
+        height:259px;
+        width: 386px;
+    }
+    .row-2{
+        position: relative;
+        left: 150px;
+        right: 300ox;
+    }
+    .girl-3{
+        margin-left: -80px;
+    }
+    .your{
+        width: 370px;
+    }
+    .subscribe-2{
+        margin-left: 400px;
+    }
+}

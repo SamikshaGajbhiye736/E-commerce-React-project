@@ -1,0 +1,112 @@
+.about-p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.about-h2{
+    font-size: 40px;
+}
+.about-img-1{
+    background-image: url(images/background/team_member_1-1.jpg);
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+}
+.about-img-2{
+    background-image: url(images/background/team_member_2-1.jpg);
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+}
+.about-img-3{
+    background-image: url(images/background/team_member_3-1.jpg);
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+}
+.about-img-4{
+    background-image: url(images/background/team_member_4-1.jpg);
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+}
+.company{
+    color: #81D1B0;
+    font-weight: 500;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.globe{
+    font-size: 50px;
+    color: #969CA7;
+    margin-left:70px;
+}
+.globe:hover{
+    font-size: 50px;
+    color:white;
+}
+.globe-2{
+    height: 101px;
+    width: 101px;
+    margin-left: 50px;
+    
+ 
+}
+.globe-2:hover{
+    background-color: #0CCFAD;
+    height: 101px;
+    width: 101px;
+   
+}
+
+
+
+@media(min-width:768px){
+    .globe{
+        margin-left: 3px;
+    }
+    .about-content{
+        display: flex;
+        width: 100%;
+
+    }
+    .about-content-1{
+       width: 70%;
+    }
+    .about-content-2{
+        width: 30%;
+     }
+     .about-img-1,.about-img-2,.about-img-3,.about-img-4{
+        height: 167px;
+        width: 167px;
+     }
+}
+
+
+@media(min-width:992px){
+    .globe{
+        margin-left:3px;
+    }
+    .globe-2{
+       position: relative;
+       left: 60px;
+    }
+    .about-img-1,.about-img-2,.about-img-3,.about-img-4{
+        height: 267px;
+        width: 267px;
+     }
+}

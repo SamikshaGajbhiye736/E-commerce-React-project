@@ -1,0 +1,21 @@
+.shop-img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.538),rgba(0,0,0,0.5)), url('images/background/bg_breadcrum.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+
+@media(min-width:768px){
+    .shop-img{
+        height: 230px;
+    }
+    .shop-h4{
+        font-size: 40px;
+    }
+    .shop-p{
+        font-size: 20px;
+        font-weight: 100;
+    }
+}

@@ -1,0 +1,80 @@
+
+.contact-name{
+    height: 50px;
+    width: 300px;
+    border: 1px solid rgb(184, 180, 180);
+    background-color:#F5F9FA;
+}
+
+.contact-button{
+    background-color:#066AAB ;
+    height: 45px;
+    width:180px;
+    font-size: 18px;
+    border: 2px solid rgb(119, 170, 119);
+    
+}
+
+.contact-message{
+    height: 130px;
+    width: 300px;
+    border: 1px solid rgb(184, 180, 180);
+    background-color:#F5F9FA;
+}
+
+
+@media(min-width:768px){
+ .contact-h4{
+    font-size: 40px;
+}
+.contact-name{
+    height: 45px;
+    width: 400px;
+}
+.contact-message{
+    height: 130px;
+    width: 400px;
+}
+.contact-button{
+    position: relative;
+    top: 100px;
+    left: -400px;
+}
+.contact-info{
+    position: relative;
+    left: -120px;
+}
+.contact-input{
+    position: relative;
+    top: 50px;
+}
+}
+
+
+
+@media(min-width:992px){
+    .contact-h4{
+       font-size: 40px;
+   }
+   .contact-name{
+    height: 45px;
+    width: 600px;
+}
+.contact-message{
+    height: 110px;
+    width: 600px;
+}
+.contact-input{
+    position: relative;
+    left: 200px;
+}
+.contact-button{
+    position: relative;
+    top: 100px;
+    left: -600px;
+}
+.contact-info{
+    position: relative;
+    left: 80px;
+}
+   }

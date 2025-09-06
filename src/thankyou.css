@@ -1,0 +1,44 @@
+
+
+.check-icon{
+    font-size: 50px;
+    color: green;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.thank{
+    font-size: 25px;
+}
+.confirm{
+    font-size: 18px;
+}
+.continue{
+    height: 45px;
+    width: 260px;
+    background-color: black;
+    color: white;
+}
+
+
+@media(min-width:768px){
+    .check-icon{
+        margin-left: 360px;
+    }
+    .continue{
+        position: relative;
+        left: 240px;
+    }
+}
+
+
+@media(min-width:992px){
+    .check-icon{
+        margin-left: 730px;
+        position: relative;
+        top: 30px;
+    }
+    .continue{
+        position: relative;
+        left: 620px;
+    }
+}

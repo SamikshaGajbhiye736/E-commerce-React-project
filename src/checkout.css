@@ -1,0 +1,115 @@
+
+.check-box-1{
+    height: 950px;
+    width: 300px;
+    border: 1px solid rgb(246, 235, 235);
+}
+.cross-icon{
+    color: rgb(194, 191, 191);
+    margin-left: 135px;
+   
+}
+
+.checkout-1,.checkout-2{
+    height: 90px;
+    width: 65px;
+    position: relative;
+    left: 110px;
+} 
+.checkout-input{
+    width:270px;
+    border: 1px solid rgb(207, 203, 203);
+}
+.checkout-btn{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.checkout-btn2{
+    height: 35px;
+    width: 270px;
+    background-color: rgb(179, 177, 177);
+    color: white;
+    border: none;
+    
+}
+.cart-tools{
+    height: 360px;
+    width: 300px;
+    border: 1px solid rgb(246, 235, 235);
+}
+.check-btn{
+    height: 37px;
+    width: 270px;
+    background-color: black;
+    color: white;
+}
+
+@media(min-width:768px){
+    .check-box-1{
+        height:338px;
+        width: 728px;
+    }
+    .cart-tools{
+        height: 360px;
+        width: 748px;
+    }
+    .cross-icon{
+        color: rgb(194, 191, 191);
+        margin-left: 25px;
+       
+    }
+     .checkout-1{
+        margin-left: -140px;
+    }
+    
+    .checkout-2{
+        margin-left: -200px;
+    }
+    .checkout-input{
+        width: 190px;
+    }
+    .checkout-btn{
+        height: 35px;
+        width: 140px;
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    .checkout-btn2{
+        height: 35px;
+        width: 170px;
+        position: relative;
+        left: 230px;
+    }
+    .check-btn{
+        width: 700px;
+    }
+}
+
+
+@media(min-width:992px){
+    .check-box-1{
+        height: 350px;
+        width: 750px;
+    }
+    .cart-tools{
+        height: 360px;
+        width: 438px;
+        position: relative;
+        left: 150px;
+    }
+    .check-btn{
+        width: 400px;
+    }
+    .check-box-1{
+        position: relative;
+        left: 130px;
+    }
+  
+}
+
